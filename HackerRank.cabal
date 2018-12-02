@@ -1,0 +1,30 @@
+-- This file has been generated from package.yaml by hpack version 0.28.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 874e12ab8b39ce711cbb38b894699ef463381a71a793af5e0efcb58be0123741
+
+name:           HackerRank
+version:        0.1.0.0
+category:       Web
+homepage:       https://github.com/githubuser/HackerRank#readme
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2018 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+extra-source-files:
+    README.md
+
+executable HackerRank
+  main-is: Main.hs
+  other-modules:
+      ThirtyDays
+      Paths_HackerRank
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010
